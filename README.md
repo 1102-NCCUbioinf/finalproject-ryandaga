@@ -6,17 +6,18 @@
 * Assefa Chekole Addis, 110162865
 
 ### Demo 
-You might provide an example commend or few commends to reproduce your analysis
+You can run the python script to generate the dendrogram for the different species of *Drosophila* for a specific gene group.
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
+python code/dendrogram.py --gene genetype
 ```
-
+The values for the parameter gene are Or, Ir, and Obp. Sample code is shown below.
+```R
+python code/dendrogram.py --gene Ir
+```
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1102_bioinformatics_FP_studentID.ppt/pptx/pdf (i.e.,1102_bioinformatics_FP_556688.ppt), by **06.16**
-* Any related document for the project
-  * i.e., software user guide
+* reading4_group1_paper1.pptx
 
 ### data
 * *D. sechelia* and *D. simulans*
@@ -32,14 +33,12 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   * 430 KB
 
 ### code
-* Which packages do you use? 
-  * original packages in the paper
-  * additional packages you found
-* Analysis steps
+* `dendrogram.py`
+  * The main scrip that performs the operation to generate a dendrogram for a specific gene group of *Drosophila*
+  * Requires Python install in computer an uses the `pandas` and `seaborn` library
 
 ### results
 * Dendrogram of Olfactory receptor (*Or*), Ionotropic receptor (*Ir*), and Odor-binding protien (*Obp*) genes 
-* Any improvement or change by your package?
 
 ## References
 * Packages you use
