@@ -41,6 +41,5 @@ python code/dendrogram.py --gene Ir
 * Dendrogram of Olfactory receptor (*Or*), Ionotropic receptor (*Ir*), and Odor-binding protien (*Obp*) genes 
 
 ## References
-* Packages you use
 * Shiao, M. S., Chang, J. M., Fan, W. L., Lu, M. Y. J., Notredame, C., Fang, S., ... & Li, W. H. (2015). Expression divergence of chemosensory genes between *Drosophila sechellia* and its sibling species and its implications for host shift. _Genome biology and evolution_, _7_(10), 2843-2858.
 * Shiao, M. S., Fan, W. L., Fang, S., Lu, M. Y. J., Kondo, R., & Li, W. H. (2013). Transcriptional profiling of adult *Drosophila* antennae by high-throughput sequencing. _Zoological Studies_, _52_(1), 1-10.
