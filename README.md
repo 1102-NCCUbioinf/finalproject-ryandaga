@@ -35,7 +35,7 @@ python code/dendrogram.py --gene Ir
 ### code
 * `dendrogram.py`
   * The main scrip that performs the operation to generate a dendrogram for a specific gene group of *Drosophila*
-  * Requires Python install in computer and uses the `pandas` and `seaborn` library
+  * Requires Python installed in computer and uses the `pandas` and `seaborn` library
 
 ### results
 * Dendrogram of Olfactory receptor (*Or*), Ionotropic receptor (*Ir*), and Odor-binding protien (*Obp*) genes 
